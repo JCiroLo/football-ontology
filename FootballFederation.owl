@@ -12,7 +12,7 @@
 #    Object Properties
 #################################################################
 
-###  urn:absolute:http://www.FCF.com/has_city
+###  http://www.FCF.com/has_city
 :has_city rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
           owl:inverseOf :is_city_of ;
@@ -20,7 +20,7 @@
           rdfs:range :City .
 
 
-###  urn:absolute:http://www.FCF.com/has_club
+###  http://www.FCF.com/has_club
 :has_club rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
           owl:inverseOf :is_club_of ;
@@ -28,7 +28,7 @@
           rdfs:range :Football_Club .
 
 
-###  urn:absolute:http://www.FCF.com/has_coach
+###  http://www.FCF.com/has_coach
 :has_coach rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
            owl:inverseOf :is_coach_of ;
@@ -36,7 +36,7 @@
            rdfs:range :Football_Coach .
 
 
-###  urn:absolute:http://www.FCF.com/has_country
+###  http://www.FCF.com/has_country
 :has_country rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              owl:inverseOf :is_country_of ;
@@ -44,7 +44,7 @@
              rdfs:range :Country .
 
 
-###  urn:absolute:http://www.FCF.com/has_league
+###  http://www.FCF.com/has_league
 :has_league rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             owl:inverseOf :is_league_of ;
@@ -52,7 +52,7 @@
             rdfs:range :Football_League .
 
 
-###  urn:absolute:http://www.FCF.com/has_main_foot
+###  http://www.FCF.com/has_main_foot
 :has_main_foot rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                owl:inverseOf :is_main_foot_of ;
@@ -60,7 +60,7 @@
                rdfs:range :Player_Main_Foot .
 
 
-###  urn:absolute:http://www.FCF.com/has_personal
+###  http://www.FCF.com/has_personal
 :has_personal rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
               owl:inverseOf :is_personal_of ;
@@ -68,7 +68,7 @@
               rdfs:range :Football_Personal .
 
 
-###  urn:absolute:http://www.FCF.com/has_player
+###  http://www.FCF.com/has_player
 :has_player rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             owl:inverseOf :is_player_of ;
@@ -76,7 +76,7 @@
             rdfs:range :Football_Player .
 
 
-###  urn:absolute:http://www.FCF.com/has_position
+###  http://www.FCF.com/has_position
 :has_position rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
               owl:inverseOf :is_position_of ;
@@ -84,7 +84,7 @@
               rdfs:range :Player_Position .
 
 
-###  urn:absolute:http://www.FCF.com/has_stadium
+###  http://www.FCF.com/has_stadium
 :has_stadium rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              owl:inverseOf :is_stadium_of ;
@@ -92,70 +92,70 @@
              rdfs:range :Stadium .
 
 
-###  urn:absolute:http://www.FCF.com/is_city_of
+###  http://www.FCF.com/is_city_of
 :is_city_of rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             rdfs:domain :City ;
             rdfs:range :Football_Club .
 
 
-###  urn:absolute:http://www.FCF.com/is_club_of
+###  http://www.FCF.com/is_club_of
 :is_club_of rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
             rdfs:domain :Football_Club ;
             rdfs:range :Football_Player .
 
 
-###  urn:absolute:http://www.FCF.com/is_coach_of
+###  http://www.FCF.com/is_coach_of
 :is_coach_of rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain :Football_Coach ;
              rdfs:range :Football_Club .
 
 
-###  urn:absolute:http://www.FCF.com/is_country_of
+###  http://www.FCF.com/is_country_of
 :is_country_of rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdfs:domain :Country ;
                rdfs:range :City .
 
 
-###  urn:absolute:http://www.FCF.com/is_league_of
+###  http://www.FCF.com/is_league_of
 :is_league_of rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
               rdfs:domain :Football_League ;
               rdfs:range :Football_Club .
 
 
-###  urn:absolute:http://www.FCF.com/is_main_foot_of
+###  http://www.FCF.com/is_main_foot_of
 :is_main_foot_of rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf owl:topObjectProperty ;
                  rdfs:domain :Player_Main_Foot ;
                  rdfs:range :Football_Player .
 
 
-###  urn:absolute:http://www.FCF.com/is_personal_of
+###  http://www.FCF.com/is_personal_of
 :is_personal_of rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdfs:domain :Football_Personal ;
                 rdfs:range :Football_Club .
 
 
-###  urn:absolute:http://www.FCF.com/is_player_of
+###  http://www.FCF.com/is_player_of
 :is_player_of rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
               rdfs:domain :Football_Player ;
               rdfs:range :Football_Club .
 
 
-###  urn:absolute:http://www.FCF.com/is_position_of
+###  http://www.FCF.com/is_position_of
 :is_position_of rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdfs:domain :Player_Position ;
                 rdfs:range :Football_Player .
 
 
-###  urn:absolute:http://www.FCF.com/is_stadium_of
+###  http://www.FCF.com/is_stadium_of
 :is_stadium_of rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdfs:domain :Stadium ;
@@ -273,7 +273,8 @@
                     :Football_Player ;
            :has_club :FC_Barcelona ;
            :has_main_foot :Right_Foot ;
-           :has_position :Goalkeeper .
+           :has_position :Goalkeeper ;
+           rdfs:label "Ansu Fati" .
 
 
 ###  http://www.FCF.com/Atanasio_Girardo
@@ -299,7 +300,8 @@
                           :Football_Player ;
                  :has_club :Machester_United ;
                  :has_main_foot :Right_Foot ;
-                 :has_position :Middlefield .
+                 :has_position :Middlefield ;
+                 rdfs:label "Bruno Fernandez" .
 
 
 ###  http://www.FCF.com/Camp_Nou
@@ -313,7 +315,8 @@
                        :Football_Player ;
               :has_club :FC_Roma ;
               :has_main_foot :Left_Foot ;
-              :has_position :Forward .
+              :has_position :Forward ;
+              rdfs:label "Carles Perez" .
 
 
 ###  http://www.FCF.com/Carlo_Ancelotti
@@ -345,7 +348,13 @@
                    owl:sameAs :El_Bicho ;
                    :has_club :Machester_United ;
                    :has_main_foot :Right_Foot ;
-                   :has_position :Forward .
+                   :has_position :Forward ;
+                   rdfs:label "Cristiano Ronaldo" .
+
+
+###  http://www.FCF.com/Defender
+:Defender rdf:type owl:NamedIndividual ,
+                   :Player_Position .
 
 
 ###  http://www.FCF.com/Dorlan_Pabon
@@ -353,12 +362,14 @@
                        :Football_Player ;
               :has_club :Atletico_Nacional ;
               :has_main_foot :Right_Foot ;
-              :has_position :Forward .
+              :has_position :Forward ;
+              rdfs:label "Dorlan Pabon" .
 
 
 ###  http://www.FCF.com/El_Bicho
 :El_Bicho rdf:type owl:NamedIndividual ,
-                   :Football_Player .
+                   :Football_Player ;
+          rdfs:label "El Bicho" .
 
 
 ###  http://www.FCF.com/España
@@ -401,13 +412,19 @@
                          :Football_Player ;
                 :has_club :Atletico_Nacional ;
                 :has_main_foot :Right_Foot ;
-                :has_position :Defender .
+                :has_position :Defender ;
+                rdfs:label "Felipe Aguilar" .
 
 
 ###  http://www.FCF.com/Ferran_Ares
 :Ferran_Ares rdf:type owl:NamedIndividual ,
                       :Club_Prop ;
              :is_personal_of :Atletico_Nacional .
+
+
+###  http://www.FCF.com/Forward
+:Forward rdf:type owl:NamedIndividual ,
+                  :Player_Position .
 
 
 ###  http://www.FCF.com/Francia
@@ -420,7 +437,8 @@
                        :Football_Player ;
               :has_club :FC_Barcelona ;
               :has_main_foot :Right_Foot ;
-              :has_position :Defender .
+              :has_position :Defender ;
+              rdfs:label "Gerad Pique" .
 
 
 ###  http://www.FCF.com/Giuseppe_Meazza
@@ -429,12 +447,18 @@
                  :is_stadium_of :Inter_De_Milan .
 
 
+###  http://www.FCF.com/Goalkeeper
+:Goalkeeper rdf:type owl:NamedIndividual ,
+                     :Player_Position .
+
+
 ###  http://www.FCF.com/Harry_Maguire
 :Harry_Maguire rdf:type owl:NamedIndividual ,
                         :Football_Player ;
                :has_club :Machester_United ;
                :has_main_foot :Right_Foot ;
-               :has_position :Defender .
+               :has_position :Defender ;
+               rdfs:label "Harry Maguire" .
 
 
 ###  http://www.FCF.com/Inglaterra
@@ -464,7 +488,8 @@
                          :Football_Player ;
                 :has_club :Atletico_Nacional ;
                 :has_main_foot :Left_Foot ;
-                :has_position :Middlefield .
+                :has_position :Middlefield ;
+                rdfs:label "Julian Barrera" .
 
 
 ###  http://www.FCF.com/Jesus_Maria_Pérez
@@ -502,7 +527,17 @@
                         :Football_Player ;
                :has_club :Real_Madrid_CF ;
                :has_main_foot :Right_Foot ;
-               :has_position :Forward .
+               :has_position :Forward ;
+               rdfs:label "Karim Benzema" .
+
+
+###  http://www.FCF.com/Keylor_Navas
+:Keylor_Navas rdf:type owl:NamedIndividual ,
+                       :Football_Player ;
+              :has_club :PSG ;
+              :has_main_foot :Right_Foot ;
+              :has_position :Goalkeeper ;
+              rdfs:label "Keylor Navas" .
 
 
 ###  http://www.FCF.com/La_Liga
@@ -517,7 +552,13 @@
                            :Football_Player ;
                   :has_club :Inter_De_Milan ;
                   :has_main_foot :Right_Foot ;
-                  :has_position :Forward .
+                  :has_position :Forward ;
+                  rdfs:label "Lautaro Martinez" .
+
+
+###  http://www.FCF.com/Left_Foot
+:Left_Foot rdf:type owl:NamedIndividual ,
+                    :Player_Main_Foot .
 
 
 ###  http://www.FCF.com/Liga_Betplay_Dimayor
@@ -537,7 +578,8 @@
                        :Football_Player ;
               :has_club :PSG ;
               :has_main_foot :Left_Foot ;
-              :has_position :Forward .
+              :has_position :Forward ;
+              rdfs:label "Lionel Messi" .
 
 
 ###  http://www.FCF.com/Londres
@@ -575,7 +617,8 @@
                   :Football_Player ;
          :has_club :Real_Madrid_CF ;
          :has_main_foot :Left_Foot ;
-         :has_position :Defender .
+         :has_position :Defender ;
+         rdfs:label "Marcelo" .
 
 
 ###  http://www.FCF.com/Mason_Mount
@@ -583,7 +626,8 @@
                       :Football_Player ;
              :has_club :Chelsea ;
              :has_main_foot :Right_Foot ;
-             :has_position :Middlefield .
+             :has_position :Middlefield ;
+             rdfs:label "Mason Mount" .
 
 
 ###  http://www.FCF.com/Mauricio_Pochettino
@@ -596,6 +640,11 @@
 :Medellín rdf:type owl:NamedIndividual ,
                    :City ;
           :has_country :Colombia .
+
+
+###  http://www.FCF.com/Middlefield
+:Middlefield rdf:type owl:NamedIndividual ,
+                      :Player_Position .
 
 
 ###  http://www.FCF.com/Miguel_Costa
@@ -621,7 +670,8 @@
                     :Football_Player ;
            :has_club :PSG ;
            :has_main_foot :Right_Foot ;
-           :has_position :Forward .
+           :has_position :Forward ;
+           rdfs:label "Neymar Jr" .
 
 
 ###  http://www.FCF.com/Nicolas_Barella
@@ -629,7 +679,8 @@
                           :Football_Player ;
                  :has_club :Inter_De_Milan ;
                  :has_main_foot :Right_Foot ;
-                 :has_position :Middlefield .
+                 :has_position :Middlefield ;
+                 rdfs:label "Nicolas Barella" .
 
 
 ###  http://www.FCF.com/Old_Trafford
@@ -673,7 +724,8 @@
                 :Football_Player ;
        :has_club :FC_Barcelona ;
        :has_main_foot :Right_Foot ;
-       :has_position :Middlefield .
+       :has_position :Middlefield ;
+       rdfs:label "Pedri" .
 
 
 ###  http://www.FCF.com/Premier_Ligue
@@ -689,6 +741,11 @@
                 :has_city :Madrid .
 
 
+###  http://www.FCF.com/Right_Foot
+:Right_Foot rdf:type owl:NamedIndividual ,
+                     :Player_Main_Foot .
+
+
 ###  http://www.FCF.com/Roma
 :Roma rdf:type owl:NamedIndividual ,
                :City ;
@@ -700,7 +757,8 @@
                         :Football_Player ;
                :has_club :Chelsea ;
                :has_main_foot :Left_Foot ;
-               :has_position :Forward .
+               :has_position :Forward ;
+               rdfs:label "Romelu Lukaku" .
 
 
 ###  http://www.FCF.com/Santiago_Bernabeu
@@ -745,7 +803,8 @@
                      :Football_Player ;
             :has_club :FC_Barcelona ;
             :has_main_foot :Right_Foot ;
-            :has_position :Goalkeeper .
+            :has_position :Goalkeeper ;
+            rdfs:label "Ter Segen" .
 
 
 ###  http://www.FCF.com/Thomas_Tuchel
@@ -765,51 +824,14 @@
                       :Football_Player ;
              :has_club :Real_Madrid_CF ;
              :has_main_foot :Right_Foot ;
-             :has_position :Forward .
+             :has_position :Forward ;
+             rdfs:label "Vinicius Jr" .
 
 
 ###  http://www.FCF.com/Xavi_Hernández
 :Xavi_Hernández rdf:type owl:NamedIndividual ,
                          :Football_Coach ;
                 :is_coach_of :FC_Barcelona .
-
-
-###  urn:absolute:http://www.FCF.com/Defender
-:Defender rdf:type owl:NamedIndividual ,
-                   :Player_Position .
-
-
-###  urn:absolute:http://www.FCF.com/Forward
-:Forward rdf:type owl:NamedIndividual ,
-                  :Player_Position .
-
-
-###  urn:absolute:http://www.FCF.com/Goalkeeper
-:Goalkeeper rdf:type owl:NamedIndividual ,
-                     :Player_Position .
-
-
-###  urn:absolute:http://www.FCF.com/Keylor_Navas
-:Keylor_Navas rdf:type owl:NamedIndividual ,
-                       :Football_Player ;
-              :has_club :PSG ;
-              :has_main_foot :Right_Foot ;
-              :has_position :Goalkeeper .
-
-
-###  urn:absolute:http://www.FCF.com/Left_Foot
-:Left_Foot rdf:type owl:NamedIndividual ,
-                    :Player_Main_Foot .
-
-
-###  urn:absolute:http://www.FCF.com/Middlefield
-:Middlefield rdf:type owl:NamedIndividual ,
-                      :Player_Position .
-
-
-###  urn:absolute:http://www.FCF.com/Right_Foot
-:Right_Foot rdf:type owl:NamedIndividual ,
-                     :Player_Main_Foot .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
